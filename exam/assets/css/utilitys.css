@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none;
+}
+:root{
+	--primery-color:#7AE7C7;
+	--secondery-color:#6D8386;
+	--color:#182f35;
+	--white-color:#FFFFFF;
+	--black-color:#07242C;
+	--black-800:#626262;
+	--black-700:#4A5E61;
+	--roboto:'Roboto';
+	--squada:'Squada One';
+	--fs-14:14px;
+	--fs-16:16px;
+	--fs-20:20px;
+	--fs-22:22px;
+	--fs-24:24px;
+	--fs-36:36px;
+	--fs-55:55px;
+	--fs-70:70px;
+	--fw-400:400;
+	--fw-500:500;
+	--fw-600:600;
+	--fw-700:700;
+	--fw-900:900;
+	--lh:1.5;
+	--padding-left:12px;
+	--padding-right:12px;
+	--bg-color:#112429;
+}
+body{
+	position: relative;
+	font-family:var(--roboto);
+	font-size:var(--fs-16);
+	color:var(--white-color);
+	margin: 0 auto;
+}
+.container{
+	max-width:1220px;
+	margin:0 auto;
+	padding-left :var(--padding-left);
+	padding-right:var(--padding-right);
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:calc(-1 * var(--padding-left));
+	margin-right:calc(-1 * var(--padding-right));
+}
+a{
+	text-decoration: none;
+}
+.d-none{
+	display: none;
+}
+.d-block{
+	display: block;
+}
+.d-flex{
+	display: flex;
+}
+.justify-center{
+	justify-content: center;
+}
+.align-center{
+	align-items: center;
+}
+.justify-space{
+	justify-content: space-between;
+}
